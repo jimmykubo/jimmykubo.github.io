@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>JK © Info</title>
+</head>
+<body>
+<div class="menu-icon" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html">WORKS</a></li>
+        <li><a href="info.html">INFO</a></li>
+    </ul>
+</div>
+
+<div class="menu-content">
+    <div class="about-container">
+        <h1>ABOUT</h1>
+        <div class="column">
+            <p>Jimmy Kubo, born in São Paulo, Brazil, studied graphic design at ESA Saint-Luc Institute of Brussels, where he worked on a diverse range of printed media. He also completed a preparatory program in the department of Media & Information Design at LUCA School of Arts, focusing on affective visualization, storytelling, and interactive design.</p>
+            <h2>CONTACT</h2>
+            <p>jimmy.kubo@icloud.com</p>
+        </div>
+        <div class="column">
+            <p></p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    }
+</script>
+
+</body>
+</html>
