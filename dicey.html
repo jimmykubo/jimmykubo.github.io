@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>JK © Magazine</title>
+</head>
+<body id="dicey">
+<div class="menu-icon" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html">WORKS</a></li>
+        <li><a href="info.html">INFO</a></li>
+    </ul>
+</div>
+
+<div class="menu-content">
+    <div class="about-container">
+        <h1>DICEY MAGAZINE</h1>
+        <div class="column">
+            <p>Dicey Magazine was created in 2023 as a design assignment initiated by Johan Van Looveren at the department of Media & Information Design at Luca School of Arts in Brussels. All texts come from medium.com, an open source platform.</p>
+        </div>
+        <div class>
+            <img src="/Users/jimmykubo/Documents/PORTFOLIO/website/images/magazine_mockup_0.png" alt="magazine cover" class="fullscreen-image">
+        </div>
+        <div class>
+            <img src="/Users/jimmykubo/Documents/PORTFOLIO/website/images/new_mockup_1.png" alt="magazine cover" class="fullscreen-image">
+        </div>
+            <p></p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    }
+</script>
+
+</body>
+</html>

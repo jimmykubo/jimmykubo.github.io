@@ -128,3 +128,16 @@ h2 {
     font-size: 30px;
     padding-top: 70px;
 }
+
+/* Dicey Mag page */
+
+#dicey {
+    background-color: #ffffff;
+}
+
+.fullscreen-image {
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+    scale: 90%;
+}
