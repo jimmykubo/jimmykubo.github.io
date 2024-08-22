@@ -141,3 +141,22 @@ h2 {
     object-fit: cover;
     scale: 90%;
 }
+
+/* Dicey Mag page */
+
+#playground {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.bar {
+    background-color: #ffffff;
+}
+
+.render {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+    text-align: center;
+}
