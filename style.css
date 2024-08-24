@@ -148,9 +148,7 @@ h2 {
 
 
 .render {
-    width: 50%;
+    width: 100%;
     height: auto;
     object-fit: cover;
-    margin-bottom: 20px;
-    text-align: center;
 }
