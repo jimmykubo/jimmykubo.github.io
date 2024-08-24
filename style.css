@@ -80,10 +80,8 @@
     right: 0;
 }
 
-/* Continuous scrolling effect */
-
 .scrolling-text-container {
-    animation: marquee 20s linear infinite;
+    animation: marquee 20s linear infinite; /* Continuous scrolling effect */
 }
 
 @keyframes marquee {
@@ -98,7 +96,7 @@
 /* Info page */
 
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
@@ -139,7 +137,7 @@ h2 {
     width: 100%;
     height: auto;
     object-fit: cover;
-    scale: 90%;
+    scale: 80%;
 }
 
 /* Dicey Mag page */
