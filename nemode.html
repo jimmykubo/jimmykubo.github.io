@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>JK © Nemode</title>
+</head>
+<body id="nemode">
+<div class="menu-icon" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html">WORKS</a></li>
+        <li><a href="info.html">INFO</a></li>
+    </ul>
+</div>
+
+<div class="menu-content">
+    <div class="about-container">
+        <h1>NEMODE</h1>
+        <div class="column">
+            <p>Creative direction and design for Nemode, an alternative Rock band from Brussels, blending Emo influences with Hyperpop inspired production.</p>
+        </div>
+        <div class>
+            <img src="images/nemode_1.png" alt="3D render" class="render">
+        </div>
+        <div class>
+            <img src="images/nemode_2.png" alt="3D render" class="render">
+        </div>
+        <div class>
+            <img src="images/nemode_3.png" alt="3D render" class="render">
+        </div>
+            <p></p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    }
+</script>
+
+</body>
+</html>
