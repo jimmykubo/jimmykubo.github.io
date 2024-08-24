@@ -50,6 +50,20 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* New CSS for menu text */
+.menu-content {
+    position: fixed;
+    top: 20px; /* Same top position as menu icon for alignment */
+    left: 35px; /* Adjusted left position to align with menu icon */
+}
+
+/* Responsive adjustments specifically for mobile */
+@media (max-width: 600px) {
+    .menu-text {
+        left: 60px; /* Fine-tune the left position for mobile */
+    }
+}
+
 /* Styling for the scrolling text */
 
 .scrolling-text-container {
