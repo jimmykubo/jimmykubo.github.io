@@ -51,16 +51,18 @@
 }
 
 /* New CSS for menu text */
+
 .menu-content {
-    position: fixed;
+    position: absolute;
     top: 20px; /* Same top position as menu icon for alignment */
     left: 35px; /* Adjusted left position to align with menu icon */
 }
 
 /* Responsive adjustments specifically for mobile */
+
 @media (max-width: 600px) {
     .menu-text {
-        left: 60px; /* Fine-tune the left position for mobile */
+        left: 60px;
     }
 }
 
@@ -104,6 +106,14 @@
     }
     100% {
         transform: translateX(-100%);
+    }
+}
+
+/* Responsive adjustments specifically for mobile */
+
+@media (max-width: 600px) {
+    .scrolling-text {
+        font-size: 40px; /* Increased font size for mobile */
     }
 }
 
