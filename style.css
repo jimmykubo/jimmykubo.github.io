@@ -177,7 +177,24 @@ h2 {
     object-fit: cover;
 }
 
+video {
+    display: block;
+    margin: 70px auto 90px auto;      /* Horizontally center the video */
+    width: 40%;         /* Responsive width */
+    max-width: 40%;     /* Ensure it doesn't exceed the container */
+    height: auto;        /* Maintain aspect ratio */
+}
+
 #nemode {
+    background-color: #ffffff;
+}
+.render {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#book {
     background-color: #ffffff;
 }
 .render {
