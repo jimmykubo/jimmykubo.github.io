@@ -202,3 +202,12 @@ video {
     height: auto;
     object-fit: cover;
 }
+
+#logo {
+    background-color: #d8d8d7;
+}
+.render {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
