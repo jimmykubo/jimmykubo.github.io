@@ -47,7 +47,7 @@
     text-decoration: none;
     color: black;
     font-size: 30px;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: 'ArialLocal', sans-serif;
     font-stretch: condensed;
 }
 
@@ -98,11 +98,15 @@
 
 /* General styling */
 
+@font-face {
+    font-family: 'ArialLocal';
+    src: url('fonts/Arial_Narrow.ttf') format('truetype'),
+}
+
 body {
     background-color: rgb(255, 255, 255);
     color: black;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-stretch: condensed;
+    font-family: 'ArialLocal', sans-serif;
     font-size: 30px;
 }
 
