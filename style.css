@@ -40,7 +40,7 @@
 }
 
 .menu ul li {
-    margin: 15px;
+    margin: 15px 0;
 }
 
 .menu ul li a {
@@ -50,20 +50,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* New CSS for menu text */
+/* Menu text styling */
 
 .menu-content {
     position: absolute;
     top: 20px; /* Same top position as menu icon for alignment */
     left: 35px; /* Adjusted left position to align with menu icon */
-}
-
-/* Responsive adjustments specifically for mobile */
-
-@media (max-width: 600px) {
-    .menu-text {
-        left: 60px;
-    }
 }
 
 /* Styling for the scrolling text */
@@ -72,32 +64,17 @@
     white-space: nowrap;
     overflow: hidden;
     position: fixed;
-    bottom: -7px;
+    bottom: -8px; /* Positioned at the bottom */
     left: 0;
     width: 100%;
-    animation: scrollText 20s linear infinite; /* Increased duration for continuous scrolling */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .scrolling-text {
     font-size: 20px;
     color: black;
     display: inline-block;
-    padding-right: 100%; /* Pushing the text off-screen to the right */
-}
-
-.white-line {
-    height: 1px;
-    width: 100%;
-    background-color: black;
-    position: fixed;
-    bottom: 45px;
-    left: 0;
-    right: 0;
-}
-
-.scrolling-text-container {
-    animation: marquee 20s linear infinite; /* Continuous scrolling effect */
+    padding-right: 10%; /* Ensure space for text to scroll */
+    animation: marquee 20s linear infinite;
 }
 
 @keyframes marquee {
@@ -109,15 +86,16 @@
     }
 }
 
-/* Responsive adjustments specifically for mobile */
-
-@media (max-width: 600px) {
-    .scrolling-text {
-        font-size: 40px; /* Increased font size for mobile */
-    }
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 45px;
+    left: 0;
 }
 
-/* Info page */
+/* General styling */
 
 body {
     background-color: rgb(255, 255, 255);
@@ -141,17 +119,15 @@ body {
     margin-right: 2%;
 }
 
-
-h1 {
+h1, h2 {
     font-size: 30px;
 }
 
 h2 {
-    font-size: 30px;
     padding-top: 70px;
 }
 
-/* Dicey Mag page */
+/* Page specific styling */
 
 #dicey {
     background-color: #ffffff;
@@ -161,53 +137,41 @@ h2 {
     width: 100%;
     height: auto;
     object-fit: cover;
-
 }
-
-/* Dicey Mag page */
 
 #playground {
     background-color: #C8FF00;
 }
 
-
-.render {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
 video {
     display: block;
-    margin: 70px auto 90px auto;      /* Horizontally center the video */
-    width: 40%;         /* Responsive width */
-    max-width: 40%;     /* Ensure it doesn't exceed the container */
-    height: auto;        /* Maintain aspect ratio */
+    margin: 70px auto 90px auto;
+    width: 40%;
+    max-width: 40%;
+    height: auto;
 }
 
-#nemode {
-    background-color: #ffffff;
-}
-.render {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-#book {
-    background-color: #ffffff;
-}
-.render {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+#nemode, #book, #logo {
+    background-color: #ffffff; /* Ensure consistent background */
 }
 
 #logo {
     background-color: #FF9CFF;
 }
-.render {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+
+@media (max-width: 600px) {
+    
+    .column {
+        width: 80%;
+        float: left;
+        margin-right: 0;
+    }
+
+    h1, h2 {
+        font-size: 25px;
+    }
+
+    body {
+        font-size: 20px;
+    }
 }
