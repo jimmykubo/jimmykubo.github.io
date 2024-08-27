@@ -68,6 +68,7 @@
     bottom: -8px; /* Positioned at the bottom */
     left: 0;
     width: 100%;
+    z-index: 4;
 }
 
 .scrolling-text {
@@ -88,12 +89,23 @@
 }
 
 .line {
-    height: 1px;
+    height: 2px;
     width: 100%;
     background-color: black;
     position: fixed;
     bottom: 45px;
     left: 0;
+    z-index: 3;
+}
+
+.footer {
+    height: 45px; /* Adjust height as needed */
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1; /* Positioned behind the black line */
 }
 
 /* General styling */
@@ -144,6 +156,7 @@ h2 {
     height: auto;
     object-fit: cover;
 }
+
 
 #playground {
     background-color: #C8FF00;
