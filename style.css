@@ -47,7 +47,7 @@
     text-decoration: none;
     color: black;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow';
 }
 
 /* Menu text styling */
@@ -100,7 +100,7 @@
 body {
     background-color: rgb(255, 255, 255);
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow';
     font-size: 30px;
 }
 
@@ -172,7 +172,6 @@ video {
     }
 
     body {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 20px;
     }
 }
