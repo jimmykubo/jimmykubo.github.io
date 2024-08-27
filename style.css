@@ -102,6 +102,10 @@
     font-family: 'ArialLocal';
     src: url('fonts/Arial_Narrow.ttf') format('truetype'),
 }
+@font-face {
+    font-family: 'ArialLocalBold';
+    src: url('fonts/Arial_Narrow_Bold.ttf') format('truetype'),
+}
 
 body {
     background-color: rgb(255, 255, 255);
@@ -126,6 +130,7 @@ body {
 }
 
 h1, h2 {
+    font-family: 'ArialLocalBold', sans-serif;
     font-size: 30px;
 }
 
