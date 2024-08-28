@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'ArialLocal';
+    src: url('fonts/Arial_Narrow.ttf') format('truetype'),
+}
+
 /* Hamburger menu styling */
 
 .menu-icon {
@@ -46,17 +51,8 @@
 .menu ul li a {
     text-decoration: none;
     color: black;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'ArialLocal', sans-serif;
-    font-stretch: condensed;
-}
-
-/* Menu text styling */
-
-.menu-content {
-    position: absolute;
-    top: 20px; /* Same top position as menu icon for alignment */
-    left: 35px; /* Adjusted left position to align with menu icon */
 }
 
 /* Styling for the scrolling text */
@@ -65,17 +61,18 @@
     white-space: nowrap;
     overflow: hidden;
     position: fixed;
-    bottom: -8px; /* Positioned at the bottom */
+    bottom: -8px;
     left: 0;
     width: 100%;
     z-index: 4;
 }
 
 .scrolling-text {
+    font-family: 'ArialLocal', sans-serif;
     font-size: 20px;
     color: black;
     display: inline-block;
-    padding-right: 10%; /* Ensure space for text to scroll */
+    padding-right: 10%;
     animation: marquee 17s linear infinite;
 }
 
@@ -99,21 +96,16 @@
 }
 
 .footer {
-    height: 45px; /* Adjust height as needed */
+    height: 45px;
     width: 100%;
     background-color: white;
     position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 1; /* Positioned behind the black line */
+    z-index: 1; /* Positioned behind the line */
 }
 
 /* General styling */
-
-@font-face {
-    font-family: 'ArialLocal';
-    src: url('fonts/Arial_Narrow.ttf') format('truetype'),
-}
 
 body {
     background-color: rgb(255, 255, 255);
@@ -138,28 +130,17 @@ body {
 }
 
 h1, h2 {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 h2 {
     padding-top: 70px;
 }
 
-/* Page specific styling */
-
-#dicey {
-    background-color: #ffffff;
-}
-
 .fullscreen-image {
     width: 100%;
     height: auto;
     object-fit: cover;
-}
-
-
-#playground {
-    background-color: #C8FF00;
 }
 
 video {
@@ -170,12 +151,28 @@ video {
     height: auto;
 }
 
+/* Page specific styling */
+
+#dicey {
+    background-color: #ffffff;
+}
+
+#playground {
+    background-color: #C8FF00;
+}
+
 #nemode, #book, #logo {
-    background-color: #ffffff; /* Ensure consistent background */
+    background-color: #ffffff;
 }
 
 #logo {
     background-color: #FF9CFF;
+}
+
+#index {
+    .menu {
+        display: block;
+    }
 }
 
 @media (max-width: 600px) {
@@ -191,12 +188,12 @@ video {
     }
 
     .menu ul li a {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     h1, h2 {
         font-family: 'ArialLocal', sans-serif;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     body {
