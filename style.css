@@ -51,7 +51,7 @@
 .menu ul li a {
     text-decoration: none;
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'ArialLocal', sans-serif;
 }
 
@@ -111,7 +111,7 @@ body {
     background-color: rgb(255, 255, 255);
     color: black;
     font-family: 'ArialLocal', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .menu-content {
@@ -130,7 +130,7 @@ body {
 }
 
 h1, h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 h2 {
