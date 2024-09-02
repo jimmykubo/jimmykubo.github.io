@@ -108,7 +108,7 @@
 /* General styling */
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color:#ffffff;
     color: black;
     font-family: 'ArialLocal', sans-serif;
     font-size: 25px;
@@ -151,6 +151,14 @@ video {
     height: auto;
 }
 
+.id {
+    position: absolute;
+    top: 50px; /* Distance from the top of the screen */
+    right: 175px; /* Distance from the right side of the screen */
+    max-width: 25%;
+    height: auto;
+}
+
 /* Page specific styling */
 
 #dicey {
@@ -163,6 +171,7 @@ video {
 
 #nemode, #book, #logo {
     background-color: #ffffff;
+    
 }
 
 #logo {
@@ -200,4 +209,10 @@ video {
         padding-left: 28px;
         font-size: 20px;
     }
+}
+
+.id {
+    max-width: 50%;
+    margin-right: 26px;
+    margin-top: 585px;
 }
