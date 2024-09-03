@@ -130,6 +130,7 @@ body {
 }
 
 h1, h2 {
+    font-weight: normal;
     font-size: 30px;
 }
 
@@ -148,7 +149,16 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    max-width: 60%;
+    max-width: 50%;
+    height: auto;
+}
+
+.cover2 {
+    margin-top: 40px; /* Adjust the top margin */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 35%;
     height: auto;
 }
 
