@@ -185,13 +185,34 @@ video {
     
 }
 
+#nemode {
+video {
+    display: block;
+    margin: 70px auto 90px auto;
+    width: 30%;
+    max-width: 30%;
+    height: auto;
+}
+}
+
 #logo {
     background-color: #FF9CFF;
+    
 }
 
 #index {
     .menu {
         display: block;
+    }
+}
+
+#forum {
+    video {
+        display: block;
+        margin: 70px auto 90px auto;
+        width: 35%;
+        max-width: 35%;
+        height: auto;
     }
 }
 
