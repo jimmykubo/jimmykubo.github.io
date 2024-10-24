@@ -257,6 +257,22 @@ video {
         height: auto;
     }
 
+    #nemode video {
+        display: block;
+        margin-left: 0%;
+        width: 100%;  /* Make the video take the full width of the mobile screen */
+        max-width: 92%;  /* Ensure it doesn't exceed 100% of the screen width */
+        height: auto;  /* Maintain the aspect ratio */
+    }
+
+    #forum video {
+        display: block;
+        margin-left: 0%;
+        width: 100%;  /* Make the video take the full width of the mobile screen */
+        max-width: 92%;  /* Ensure it doesn't exceed 100% of the screen width */
+        height: auto;  /* Maintain the aspect ratio */
+    }
+
     .scrolling-text {
         animation-delay: -5.5s; /* Ensure no delay on larger screens as well */
     }
