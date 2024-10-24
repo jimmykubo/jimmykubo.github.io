@@ -251,9 +251,9 @@ video {
 
     video {
         display: block;
-        margin: 70px auto 90px auto;
-        width: 80%;
-        max-width: 80%;
+        margin-left: 0%;
+        width: 100%;
+        max-width: 94%;
         height: auto;
     }
 
