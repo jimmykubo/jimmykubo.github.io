@@ -19,6 +19,15 @@ function toggleMenu() {
     }
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    var video = document.querySelector('video');
+    if (video) {
+        video.play().catch(function(error) {
+            console.log("Autoplay prevented:", error);
+        });
+    }
+});
+
 // Make sure the scrolling text is always visible when the menu is opened
 document.addEventListener('DOMContentLoaded', function() {
     const menuLinks = document.querySelectorAll('.menu ul li a');
