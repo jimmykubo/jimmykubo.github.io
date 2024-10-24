@@ -216,7 +216,46 @@ video {
     }
 }
 
+/* Default: Show desktop image and hide mobile image */
+.cover1 {
+    display: block; /* Show the desktop image by default */
+    width: 100%;
+    height: auto;
+}
+
+.mobile-img {
+    display: none; /* Hide the mobile image by default */
+}
+
+/* Media Query for Mobile Devices */
+
 @media (max-width: 600px) {
+
+    .cover1 {
+        display: none; /* Hide the desktop image on mobile */
+    }
+
+    .cover2 {
+        display: none; /* Hide the desktop image on mobile */
+    }
+
+    .fullscreen-image {
+        display: none; /* Hide the desktop image on mobile */
+    }
+
+    .mobile-img {
+        display: block; /* Show the mobile image */
+        width: 100%;
+        height: auto;
+    }
+
+    video {
+        display: block;
+        margin: 70px auto 90px auto;
+        width: 80%;
+        max-width: 80%;
+        height: auto;
+    }
 
     .scrolling-text {
         animation-delay: -5.5s; /* Ensure no delay on larger screens as well */
